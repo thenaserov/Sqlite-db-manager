@@ -12,11 +12,11 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     this->setWindowTitle("Nahid Database viewer - V 1.5");
 //    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
-    _ld = new LoginDialog;
-    connect(_ld, SIGNAL(__loginSuccessful()), this, SLOT(OnLoginSuccessful()));
-    connect(_ld, SIGNAL(__loginFailed()), this, SLOT(OnLoginFailed()));
+//    _ld = new LoginDialog;
+//    connect(_ld, SIGNAL(__loginSuccessful()), this, SLOT(OnLoginSuccessful()));
+//    connect(_ld, SIGNAL(__loginFailed()), this, SLOT(OnLoginFailed()));
 //    connect();
-    _ld->exec();
+//    _ld->exec();
 }
 
 MainWindow::~MainWindow()
